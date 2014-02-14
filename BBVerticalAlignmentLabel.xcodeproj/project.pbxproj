@@ -19,6 +19,8 @@
 		0461D3B118AE657D0042A24B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0461D39918AE657D0042A24B /* UIKit.framework */; };
 		0461D3B918AE657D0042A24B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0461D3B718AE657D0042A24B /* InfoPlist.strings */; };
 		0461D3BB18AE657D0042A24B /* BBVerticalAlignmentLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461D3BA18AE657D0042A24B /* BBVerticalAlignmentLabelTests.m */; };
+		0461D3C618AE65A80042A24B /* BBVerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461D3C518AE65A80042A24B /* BBVerticalAlignmentLabel.m */; };
+		0461D3C918AE65B80042A24B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461D3C818AE65B80042A24B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		0461D3B618AE657D0042A24B /* BBVerticalAlignmentLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBVerticalAlignmentLabelTests-Info.plist"; sourceTree = "<group>"; };
 		0461D3B818AE657D0042A24B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0461D3BA18AE657D0042A24B /* BBVerticalAlignmentLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBVerticalAlignmentLabelTests.m; sourceTree = "<group>"; };
+		0461D3C418AE65A80042A24B /* BBVerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBVerticalAlignmentLabel.h; sourceTree = "<group>"; };
+		0461D3C518AE65A80042A24B /* BBVerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBVerticalAlignmentLabel.m; sourceTree = "<group>"; };
+		0461D3C718AE65B80042A24B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0461D3C818AE65B80042A24B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				0461D3A518AE657D0042A24B /* AppDelegate.m */,
 				0461D3A718AE657D0042A24B /* Images.xcassets */,
 				0461D39C18AE657D0042A24B /* Supporting Files */,
+				0461D3C418AE65A80042A24B /* BBVerticalAlignmentLabel.h */,
+				0461D3C518AE65A80042A24B /* BBVerticalAlignmentLabel.m */,
+				0461D3C718AE65B80042A24B /* RootViewController.h */,
+				0461D3C818AE65B80042A24B /* RootViewController.m */,
 			);
 			path = BBVerticalAlignmentLabel;
 			sourceTree = "<group>";
@@ -241,6 +251,8 @@
 			files = (
 				0461D3A618AE657D0042A24B /* AppDelegate.m in Sources */,
 				0461D3A218AE657D0042A24B /* main.m in Sources */,
+				0461D3C918AE65B80042A24B /* RootViewController.m in Sources */,
+				0461D3C618AE65A80042A24B /* BBVerticalAlignmentLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Prefix.pch";
 				INFOPLIST_FILE = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Prefix.pch";
 				INFOPLIST_FILE = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
