@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0446EE3F18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446EE3E18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.m */; };
 		0461D39618AE657D0042A24B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0461D39518AE657D0042A24B /* Foundation.framework */; };
 		0461D39818AE657D0042A24B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0461D39718AE657D0042A24B /* CoreGraphics.framework */; };
 		0461D39A18AE657D0042A24B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0461D39918AE657D0042A24B /* UIKit.framework */; };
@@ -19,7 +20,6 @@
 		0461D3B118AE657D0042A24B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0461D39918AE657D0042A24B /* UIKit.framework */; };
 		0461D3B918AE657D0042A24B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0461D3B718AE657D0042A24B /* InfoPlist.strings */; };
 		0461D3BB18AE657D0042A24B /* BBVerticalAlignmentLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461D3BA18AE657D0042A24B /* BBVerticalAlignmentLabelTests.m */; };
-		0461D3C618AE65A80042A24B /* BBVerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461D3C518AE65A80042A24B /* BBVerticalAlignmentLabel.m */; };
 		0461D3C918AE65B80042A24B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461D3C818AE65B80042A24B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0446EE3D18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBVerticalAlignmentLabel.h; sourceTree = "<group>"; };
+		0446EE3E18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBVerticalAlignmentLabel.m; sourceTree = "<group>"; };
 		0461D39218AE657D0042A24B /* BBVerticalAlignmentLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBVerticalAlignmentLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0461D39518AE657D0042A24B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0461D39718AE657D0042A24B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		0461D3B618AE657D0042A24B /* BBVerticalAlignmentLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBVerticalAlignmentLabelTests-Info.plist"; sourceTree = "<group>"; };
 		0461D3B818AE657D0042A24B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0461D3BA18AE657D0042A24B /* BBVerticalAlignmentLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBVerticalAlignmentLabelTests.m; sourceTree = "<group>"; };
-		0461D3C418AE65A80042A24B /* BBVerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBVerticalAlignmentLabel.h; sourceTree = "<group>"; };
-		0461D3C518AE65A80042A24B /* BBVerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBVerticalAlignmentLabel.m; sourceTree = "<group>"; };
 		0461D3C718AE65B80042A24B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0461D3C818AE65B80042A24B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0446EE3C18C5ADF7004C8F85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0446EE3D18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.h */,
+				0446EE3E18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
 		0461D38918AE657D0042A24B = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +122,11 @@
 		0461D39B18AE657D0042A24B /* BBVerticalAlignmentLabel */ = {
 			isa = PBXGroup;
 			children = (
+				0446EE3C18C5ADF7004C8F85 /* Classes */,
 				0461D3A418AE657D0042A24B /* AppDelegate.h */,
 				0461D3A518AE657D0042A24B /* AppDelegate.m */,
 				0461D3A718AE657D0042A24B /* Images.xcassets */,
 				0461D39C18AE657D0042A24B /* Supporting Files */,
-				0461D3C418AE65A80042A24B /* BBVerticalAlignmentLabel.h */,
-				0461D3C518AE65A80042A24B /* BBVerticalAlignmentLabel.m */,
 				0461D3C718AE65B80042A24B /* RootViewController.h */,
 				0461D3C818AE65B80042A24B /* RootViewController.m */,
 			);
@@ -251,8 +259,8 @@
 			files = (
 				0461D3A618AE657D0042A24B /* AppDelegate.m in Sources */,
 				0461D3A218AE657D0042A24B /* main.m in Sources */,
+				0446EE3F18C5ADF7004C8F85 /* BBVerticalAlignmentLabel.m in Sources */,
 				0461D3C918AE65B80042A24B /* RootViewController.m in Sources */,
-				0461D3C618AE65A80042A24B /* BBVerticalAlignmentLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -376,7 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Prefix.pch";
 				INFOPLIST_FILE = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,7 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Prefix.pch";
 				INFOPLIST_FILE = "BBVerticalAlignmentLabel/BBVerticalAlignmentLabel-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +465,7 @@
 				0461D3C018AE657D0042A24B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0461D3C118AE657D0042A24B /* Build configuration list for PBXNativeTarget "BBVerticalAlignmentLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				0461D3C318AE657D0042A24B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
