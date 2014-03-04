@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/NianJi/BBVerticalAlignmentLabel"
   s.license      = 'MIT (example)'
-  s.author             = { "liukun" => "765409243@qq.com" }
+  s.author       = { "liukun" => "765409243@qq.com" }
   s.source       = { :git => "https://github.com/NianJi/BBVerticalAlignmentLabel.git", :tag => "0.0.1" }
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.ios.platform   = :ios, '5.0'
